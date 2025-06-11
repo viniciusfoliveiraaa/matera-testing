@@ -1,8 +1,6 @@
 
- **Cenários em BDD**
+ **Exercicio 1**
  
- **Feature: Login**
-
  > * Cenário: Consultar usuários pelo nome completo
     Dado que estou na tela de Consulta de Usuários
     Quando preencho o campo "Nome" com "João da Silva"
@@ -36,3 +34,19 @@
     E clico no botão "FILTRAR"
     Então uma mensagem de erro deve ser exibida informando que o e-mail está em formato inválido
  *
+
+**Exercicio 3**
+ a) De que forma você reportaria esse bug?
+ 
+    R: Reportaria com o url do endpoint, o payload, a resposta e colocaria o resultado esperado
+
+b) Você identificou que este problema poderia ter sido pego durante os testes da
+feature. O que você poderia fazer para mitigar este bug e possíveis futuros nessa
+feature?
+
+    R: colocaria esse cenário no regressivo
+
+**Exercicio 4**
+
+A automação está neste repo
+
